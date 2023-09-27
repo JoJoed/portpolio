@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "jsx": "react",
+    "skipLibCheck": true,
+    "target": "es6",
+    "module": "esnext",
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "paths": {
+      "@src/*": ["./src/*"],
+      "@config": ["./config.js"]
+    }
+  }
+}
