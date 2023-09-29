@@ -55,10 +55,46 @@ span {
 .title_container {
   display: flex;
   flex-direction: column;
+  margin-bottom: 50px;
 }
 
 .title {
   padding: 0 20px 5px 0;
-  border-bottom: 2px solid #0c8ce9;
+  margin-bottom: 40px;
   width: max-content;
+}
+
+.align-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.align-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.align-group {
+  height: auto;
+  align-items: center;
+  position: relative;
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 100px;
+}
+
+.line {
+  width: 2px;
+  background: white;
+  height: 100%;
+}
+
+.content_margin {
+  margin-left: 10px;
+  align-items: start;
+  padding-bottom: 50px;
 }

@@ -1,6 +1,5 @@
-import { topbar_img_data } from "@src/data/data";
 import React from "react";
-import LeftTIme from "./LeftTIme";
+import LeftTIme from "@src/component/intro/topbar/LeftTIme";
 
 const TopBar = () => {
   return (
