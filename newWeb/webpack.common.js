@@ -88,7 +88,7 @@ module.exports = {
         {
           from: path.resolve(__dirname, "public/assets"),
           to: "assets",
-          noErrorOnMissing: true,
+          noErrorOnMissing: true, // 누락된 파일 오류생성 x
         },
       ],
     }),

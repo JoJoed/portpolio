@@ -1,5 +1,5 @@
 import React from "react";
-import LeftTIme from "@src/component/intro/topbar/LeftTIme";
+import LeftTIme from "@src/component/topbar/LeftTIme";
 
 const TopBar = () => {
   return (

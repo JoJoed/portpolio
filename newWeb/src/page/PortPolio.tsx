@@ -1,7 +1,7 @@
 import React from "react";
 import "@src/assets/style.css";
-import TopBar from "@src/component/intro/topbar/TopBar";
-import Content from "@src/component/intro/content/Content";
+import TopBar from "@src/component/topbar/TopBar";
+import Content from "@src/component/content/Content";
 const FirstPage = () => {
   return (
     <div className="container">

@@ -1,12 +1,12 @@
 import React from "react";
-import TitleContainer from "@src/component/intro/environment/container/TitleContainer";
-import { projectData } from "@src/data/projectData";
+import TitleContainer from "@src/component/environment/container/TitleContainer";
+import { projectData } from "@src/data/data";
 
 const Project = () => {
   return (
     <TitleContainer title="PROJECT">
       {projectData.map((r, index: number) => (
-        <div className="align-column">
+        <div className="align-column" key={`projectIndex-${index}`}>
           <div className="align-row">
             <div className="align-group align-column">
               <div className="circle" />

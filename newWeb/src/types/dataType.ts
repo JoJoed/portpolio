@@ -1,3 +1,6 @@
+interface introDataType {
+  [name: string]: string;
+}
 interface projectDataType {
   projectName: string;
   start: string;
@@ -6,8 +9,11 @@ interface projectDataType {
 }
 
 interface skillDataType {
-  src: string;
-  name: string;
+  title: string;
+  data: {
+    src: string;
+    name: string;
+  }[];
 }
 
-export type { projectDataType, skillDataType };
+export type { projectDataType, skillDataType, introDataType };

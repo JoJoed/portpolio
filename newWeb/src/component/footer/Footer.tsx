@@ -1,10 +1,13 @@
 import React from "react";
+import dayjs from "dayjs";
 
 const Footer = () => {
   return (
     <footer className="footer">
       <p>
-        <span>© 2023 Jo, Jeong-Hyeon All Rights Reserved.</span>
+        <span>
+          © {dayjs().format("YYYY")} Jo, Jeong-Hyeon All Rights Reserved.
+        </span>
       </p>
     </footer>
   );

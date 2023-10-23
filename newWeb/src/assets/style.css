@@ -7,6 +7,8 @@ a {
   word-break: break-word;
 }
 
+/* parent */
+
 .container {
   width: inherit;
   height: inherit;
@@ -25,6 +27,8 @@ a {
 .base_color {
   background: #222227;
 }
+
+/* top-bar */
 
 .topbar_container {
   border-radius: 5px;
@@ -46,15 +50,29 @@ a {
   justify-content: end;
 }
 
+/* footer */
+
 .footer {
   padding: 20px 0;
   text-align: center;
 }
 
+/* top-contents */
+
 .content_container {
   border-radius: 5px;
   padding: 17px 30px;
 }
+@media screen and (max-width: 880px) {
+  .inner_container {
+    width: 100%;
+  }
+  span {
+    word-break: keep-all;
+  }
+}
+
+/* title-parent */
 
 .title_container {
   display: flex;
@@ -67,6 +85,44 @@ a {
   margin-bottom: 50px;
   width: max-content;
 }
+
+/* intro */
+
+.intro_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.intro_row_align {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.intro_row_align > span {
+  font-size: 18px;
+}
+
+.intro_row_circle {
+  width: 5px;
+  height: 5px;
+  background: white;
+  border-radius: 100px;
+  margin: 0 7px;
+}
+
+.intro_row_right_align {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.intro_row_right_align > span {
+  font-size: 18px;
+}
+
+/* project */
 
 .align-row {
   display: flex;
@@ -121,6 +177,8 @@ a {
   text-decoration: none;
 }
 
+/* skill */
+
 .skill_container {
   flex: 1;
   display: flex;
@@ -133,7 +191,7 @@ a {
 .skill_item {
   width: 40px;
   height: 40px;
-  margin: 0 60px 60px 0;
+  margin: 0 50px 50px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
