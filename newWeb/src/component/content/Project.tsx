@@ -18,11 +18,11 @@ const Project = () => {
               <span className="project_text">
                 {r.start}&nbsp;~&nbsp;{r.end}
               </span>
-              <span className="project_text project_link">
-                <a target="_blank" href={r.link}>
-                  {r.link}
-                </a>
-              </span>
+              {/*<span className="project_text project_link">*/}
+              {/*  <a target="_blank" href={r.link}>*/}
+              {/*    {r.link}*/}
+              {/*  </a>*/}
+              {/*</span>*/}
             </div>
           </div>
         </div>

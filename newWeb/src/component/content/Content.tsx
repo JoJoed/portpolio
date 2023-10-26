@@ -3,6 +3,7 @@ import Intro from "@src/component/content/Intro";
 import Project from "@src/component/content/Project";
 import SKILL from "@src/component/content/Skill";
 import Footer from "@src/component/footer/Footer";
+import LinkSlider from "@src/component/content/LinkSlider";
 
 const Content = () => {
   return (
@@ -10,6 +11,7 @@ const Content = () => {
       <Intro />
       <Project />
       <SKILL />
+      <LinkSlider />
       <Footer />
     </div>
   );
