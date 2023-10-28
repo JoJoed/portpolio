@@ -210,6 +210,25 @@ a {
   border: 1px solid white;
   border-radius: 10px;
   box-sizing: border-box;
+  position: relative;
+}
+
+.slider-gradient-top {
+  position: absolute;
+  top: 0;
+  width: inherit;
+  height: 30%;
+  background: linear-gradient(to bottom, #222227 30%, transparent);
+  z-index: 10;
+}
+
+.slider-gradient-bottom {
+  position: absolute;
+  bottom: 0;
+  width: inherit;
+  height: 50%;
+  background: linear-gradient(to top, #222227 30%, transparent);
+  z-index: 10;
 }
 
 @keyframes slideAnimation {

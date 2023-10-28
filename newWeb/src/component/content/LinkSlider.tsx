@@ -18,6 +18,7 @@ const LinkSlider = () => {
   return (
     <TitleContainer title={"PROJECT LINK"}>
       <div className="slider_container">
+        <div className="slider-gradient-top" />
         <div className="slider">
           {projectData.map(
             (r, index: number) =>
@@ -33,6 +34,7 @@ const LinkSlider = () => {
               )
           )}
         </div>
+        <div className="slider-gradient-bottom" />
       </div>
     </TitleContainer>
   );
