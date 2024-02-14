@@ -5,6 +5,7 @@ interface projectDataType {
   projectName: string;
   start: string;
   end: string;
+  description: string;
   link?: string;
 }
 

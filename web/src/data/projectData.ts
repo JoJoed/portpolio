@@ -180,9 +180,9 @@ export default {
       ],
     },
     {
-      projectname: "경기도 교육청 지역자원 정보시스템(유지보수)",
+      projectname: "경기도 교육청 지역자원 정보시스템",
       start: "2023-02",
-      end: dayjs().format("YYYY-MM"),
+      end: "2023-05",
       contribution: {
         frontend: "100",
       },
@@ -199,8 +199,60 @@ export default {
         {
           name: "typescript",
         },
+      ],
+      framework: [
         {
-          name: "java",
+          name: "react",
+        },
+      ],
+    },
+    {
+      projectname: "화성시청 고도화구축 WEB 전환",
+      start: "2023-05",
+      end: "2023-08",
+      contribution: {
+        frontend: "100",
+      },
+      link: {
+        web: "https://data.goe.go.kr",
+      },
+      language: [
+        {
+          name: "html",
+        },
+        {
+          name: "css",
+        },
+        {
+          name: "typescript",
+        },
+      ],
+      framework: [
+        {
+          name: "react",
+        },
+      ],
+    },
+    {
+      projectname:
+        "[금융보안원] 금융보안관제센터 종합상황실 노후 시스템 교체 도입",
+      start: "2023-09",
+      end: "2023-11",
+      contribution: {
+        frontend: "100",
+      },
+      link: {
+        web: "https://kaleidoscopic-moonbeam-eb8e2a.netlify.app/dashboard",
+      },
+      language: [
+        {
+          name: "html",
+        },
+        {
+          name: "css",
+        },
+        {
+          name: "typescript",
         },
       ],
       framework: [
@@ -208,7 +260,34 @@ export default {
           name: "react",
         },
         {
-          name: "spring",
+          name: "cesium",
+        },
+      ],
+    },
+    {
+      projectname: "대통령경호처 통합플랫폼관제 구축사업",
+      start: "2023-11",
+      end: dayjs().format("YYYY-MM-DD"),
+      contribution: {
+        frontend: "100",
+      },
+      language: [
+        {
+          name: "html",
+        },
+        {
+          name: "css",
+        },
+        {
+          name: "typescript",
+        },
+      ],
+      framework: [
+        {
+          name: "react",
+        },
+        {
+          name: "cesium",
         },
       ],
     },

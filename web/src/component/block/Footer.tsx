@@ -29,7 +29,7 @@ const Footer = () => {
       </Font>
       <MarginContent />
       <Font size={FontSize.footer} color="white">
-        © 2022 Jo, Jeong Hyun All Rights Reserved.
+        © 2024 Jo, Jeong Hyun All Rights Reserved.
       </Font>
     </Container>
   );

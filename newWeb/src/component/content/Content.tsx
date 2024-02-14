@@ -11,7 +11,7 @@ const Content = () => {
       <Intro />
       <Project />
       <SKILL />
-      <LinkSlider />
+      {/*<LinkSlider />*/}
       <Footer />
     </div>
   );

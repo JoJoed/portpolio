@@ -50,6 +50,22 @@ a {
   justify-content: end;
 }
 
+@keyframes animateTime {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animate-time {
+  animation: 2s ease animateTime infinite;
+}
+
 /* footer */
 
 .footer {
@@ -165,6 +181,12 @@ a {
 
 .project_text {
   font-size: 18px;
+}
+
+.project_text.description {
+  color: rgba(179, 179, 179, 0.82);
+  margin-top: 10px;
+  font-size: 16px;
 }
 
 .project_link {

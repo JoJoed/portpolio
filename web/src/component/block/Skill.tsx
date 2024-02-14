@@ -39,6 +39,14 @@ const Skill = () => {
           text="html"
         />
         <SkillItem
+          url={require("../../assets/image/styled.svg").default}
+          text="styled-components"
+        />
+        <SkillItem
+          url={require("../../assets/image/sass.svg").default}
+          text="sass"
+        />
+        <SkillItem
           url={require("../../assets/image/css.svg").default}
           text="css"
         />
@@ -59,8 +67,16 @@ const Skill = () => {
           text="expo"
         />
         <SkillItem
+          url={require("../../assets/image/webpack.svg").default}
+          text="webpack"
+        />
+        <SkillItem
           url={require("../../assets/image/react.svg").default}
           text="react"
+        />
+        <SkillItem
+          url={require("../../assets/image/cesium.svg").default}
+          text="cesium"
         />
       </Container>
       <TextAlign>

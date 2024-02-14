@@ -15,14 +15,17 @@ const Project = () => {
             </div>
             <div className="content_margin align-column">
               <span className="project_title">{r.projectName}</span>
-              <span className="project_text">
-                {r.start}&nbsp;~&nbsp;{r.end}
-              </span>
-              {/*<span className="project_text project_link">*/}
-              {/*  <a target="_blank" href={r.link}>*/}
-              {/*    {r.link}*/}
-              {/*  </a>*/}
+              {/*<span className="project_text">*/}
+              {/*  {r.start}&nbsp;~&nbsp;{r.end}*/}
               {/*</span>*/}
+              {r.link && (
+                <span className="project_text project_link">
+                  <a target="_blank" href={r.link}>
+                    {r.link}
+                  </a>
+                </span>
+              )}
+              <span className="project_text description">{r.description}</span>
             </div>
           </div>
         </div>
